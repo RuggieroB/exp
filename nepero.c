@@ -32,6 +32,8 @@ int main () {
 
 	e=1.0;
 
+	prec=0;
+
 	for ( i=1; e-prec>0.001; i++){
 		prec=e;
 		fatt*=i;
